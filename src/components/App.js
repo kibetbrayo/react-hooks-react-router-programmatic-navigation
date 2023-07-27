@@ -7,7 +7,6 @@ import Navbar from "./Navbar";
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
-
   return (
     <div>
       <Navbar setIsLoggedIn={setIsLoggedIn} />
